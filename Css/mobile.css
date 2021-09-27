@@ -12,6 +12,9 @@
 #head ul li{
   padding: 1.5em 0.8rem;
 }
+#head ul li:hover{
+  color: black;
+}
 #showcase{
   background: #333 url(../picks/showcase.jpg) no-repeat center center/cover;
   height: 70vh;
