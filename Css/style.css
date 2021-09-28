@@ -21,12 +21,14 @@ ul{
 }
 /* Header */
 #head{
-  background: #333;
+  background: rgba(51, 51, 51,0.8);
   color: white;
+  width: 85%;
   padding: 1.2rem 10rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position:fixed;
 }
 #head ul {
   display: flex;
@@ -46,11 +48,11 @@ ul{
 
 /* Section showcase */
 #showcase{
-  background: #333 url(../picks/showcase.jpg) no-repeat center center/cover;
+  background: url(../picks/showcase.jpg) no-repeat center center/cover;
   height: 70vh;
 }
 #showcase .showcase-content{
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.5);
   color:white;
   height: 100%;
   display: flex;
@@ -62,3 +64,62 @@ ul{
   font-family: 'Pacifico', cursive;
   font-size: 2.5rem;
 }
+/* categories */
+.categories{
+
+}
+.catg-content{
+  display: flex;
+  justify-content: center;
+  flex-wrap:wrap ;
+}
+.catg-content img:hover{
+  background-color: black;
+  height: 100%;
+}
+
+.catg-content .img-content1{
+  background: url('../picks/womens.jpg') no-repeat center center/cover;
+  height: 30vh;
+  width: 45vh;
+  margin: 2rem 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.catg-content .img-content2{
+  background: url('../picks/mens.jpg') no-repeat center center/cover;
+  height: 30vh;
+  width: 45vh;
+  margin: 2rem 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.catg-content .img-content3{
+  background: url('../picks/kids.jpg') no-repeat center center/cover;
+  height: 30vh;
+  width: 45vh;
+  margin: 2rem 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.catg-content .img-content4{
+  background: url('../picks/electronics.jpeg') no-repeat center center/cover;
+  height: 30vh;
+  width: 45vh;
+  margin: 2rem 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.catg-content .img-content3 h1,.catg-content .img-content2 h1,
+.catg-content .img-content1 h1,.catg-content .img-content4 h1{
+  background: rgba(173, 255, 47,0.4);
+  padding: 1rem ;
+  color: black;
+  margin: 1rem 1rem;
+}
+
+
