@@ -1,6 +1,6 @@
 @media(max-width: 850px){
   #head{
-    background: rgba(51, 51, 51,0.95);
+    background: rgba(51, 51, 51,0.9);
     color: white;
     padding: 1.2rem 0.2rem;
     display: flex;
